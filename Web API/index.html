@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <header>
+        <!-- header -->
+        <div class="score-timer">
+              <!--High Scores -->
+             <div class="high-scores">
+                <a href="./scores.html"><button class="btn" id="check-scores">View High Scores</button></a>
+            </div>
+             <!-- Timer section -->
+            <div class="Timer" id="timer">Time Left: 75s</div>
+        </div>
+    </header>
+    <div>
+
+        <!-- quiz -->
+        <h1 class="quiz">Code Quiz</h1>
+        <div class="quizArea" id="quizArea"></div>
+            <div class="questionsDiv" id="questions"></div>
+            <div class="answersArea" id="answers">
+            <button class="startButton" id="startButton">Start Test!</button>
+        </div>
+        <div id="correctSnackbar">Your Correct!</div> <!-- snackbar for Correct answer-->
+        <div id="inCorrectSnackbar">Your Incorrect!</div> <!-- snackbar for Incorrect answer-->
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
